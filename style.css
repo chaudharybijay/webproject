@@ -1,0 +1,101 @@
+*{
+	margin:0xp;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
+    background-color: #ffffff;
+    
+}
+
+
+
+ body{margin: 0px;}
+.col12{width:100%;}
+.col11{width: 91.66667%;}
+.col10{width: 83.333%;}
+.col9{width:75%; }
+.col8{width: 66.6667%;}
+.col7{width: 58.333%;}
+.col6{width: 50%;}
+.col5{width: 41.6666%;}
+.col4{width:33.333%; }
+.col3{width:25%;}
+.col2{width: 16.666%;}
+.col1{width: 8.333%;}
+
+.col12,.col11,.col10,.col9,.col8,.col7,.col6,.col5,.col4,.col3,.col2,.col1{
+		padding-right: 10px;
+		padding-left: 10px;
+		float: left;
+		box-sizing:border-box;
+}
+
+.container 
+  {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    div{
+    	display: block;
+    }
+
+    .container{width: 100%;max-width: 1170px; margin: 0 auto;}
+
+
+
+
+.row:before, .row:after
+ {
+    content: "";
+    display: table;
+}
+
+
+.row:after {
+    clear: both;
+}
+
+.row{
+    padding-right: -15px; 
+    padding-left: -15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img{border:0;}
+img{vertical-align: middle;}
+img{display: block;height: auto;max-width: 100%;margin-right: auto; margin-left: auto;}
+
+.headerwrapper{width: 100%;height: 70px;  border-bottom: 2px solid black;}
+.size{font-size: 31px;}
+nav ul {float: right; margin-top: 30px;}
+ul li{list-style: none;display: inline-block; font-size: 25px;font-weight: 300;
+    line-height: 1.2;
+padding-left:18px;
+}
+.banner{margin-bottom: 40px;}
+.imgs{display: block;}
+.thumnails{display: block; padding: 4px; margin-bottom: 30px; line-height: 1.42;
+    border:2px solid #ddd; border-radius: 4px;}
+.thumnails .caption{ padding: 14px; color: #3333;}
+h1.h2,h3{margin-top: 10px; margin-bottom: 8px;}
+.btn{display: inline-block;color: white;background-color: blue; padding: 6px 12px;
+ font-size: 20px;
+border-radius: 7px; margin-bottom: 0px;}
+.btn{float: right!important;}
+.events .date{margin-bottom: 20px; color: blue;}
+.text-right{float: right; color: blue;}
+.events{border-bottom: 2px solid gray;margin-bottom: 30px; padding-bottom: 30px;}
+
+
+.footer{margin-top: 30px; padding: 30px 0px;}
+.text-center{text-align: center;}
+a{color: blue; text-decoration: none;}
